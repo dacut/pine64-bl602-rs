@@ -11,6 +11,9 @@ repository.workspace = true
 version.workspace = true
 links = "pine64-bl602-freertos-riscv-ram"
 
+[package.meta.docs.rs]
+targets = ["riscv32imc-unknown-none-elf"]
+
 [build-dependencies]
 bindgen = "0.66"
 cc = { version = "1.0", features = ["parallel"] }
