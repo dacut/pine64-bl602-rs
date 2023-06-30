@@ -11,7 +11,8 @@ repository.workspace = true
 version.workspace = true
 links = "pine64-bl602-freertos-riscv-ram"
 
-[package.meta.docs.rs]
+[package.metadata.docs.rs]
+default-target = "riscv32imc-unknown-none-elf"
 targets = ["riscv32imc-unknown-none-elf"]
 
 [build-dependencies]
