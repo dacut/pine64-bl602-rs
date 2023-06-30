@@ -1,0 +1,17 @@
+[package]
+name = "pine64-bl602-freertos-riscv-ram"
+build = "build.rs"
+description = "Pine64 BL602 FreeRTOS RISC-V RAM component"
+resolver = "2"
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+readme.workspace = true
+repository.workspace = true
+version.workspace = true
+links = "pine64-bl602-freertos-riscv-ram"
+
+[build-dependencies]
+bindgen = "0.66"
+cc = { version = "1.0", features = ["parallel"] }
+lazy_static = "1.4"
